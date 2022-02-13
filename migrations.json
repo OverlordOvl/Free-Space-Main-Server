@@ -1,0 +1,8 @@
+{
+  "prerun": "# some code here",
+  "directory": "schema/migrations",
+  "history": "migrate_history",
+  "models": [
+    "schema.models.Server"
+  ]
+}
