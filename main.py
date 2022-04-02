@@ -18,6 +18,7 @@ load_dotenv()
 class MainProtocol(NetstringReceiver, ABC):
     def connectionMade(self):
         # self.sendString("pong")
+
         pass
 
     def sendString(self, string: str or bytes):
